@@ -5,7 +5,6 @@ import linkbot  # Load the "linkbot" package.
 
 robotID = input('Enter Linkbot ID: ')  # Prompt user to enter a Linkbot ID.
 myLinkbot = linkbot.Linkbot(robotID)
-myLinkbot.connect()
 
 degrees = float(input("Degrees to rotate Joint 1: "))   # Prompt user to enter
                                                         # a value
