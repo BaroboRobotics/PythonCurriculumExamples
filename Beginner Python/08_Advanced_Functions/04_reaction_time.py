@@ -1,4 +1,4 @@
-# File: 01_reaction_time.py
+# File: 04_reaction_time.py
 
 import time
 import linkbot
@@ -38,3 +38,4 @@ while True:                                                               # 15
     time.sleep(1)
     if button_pressed:
         sys.exit()
+
